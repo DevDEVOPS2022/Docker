@@ -4,5 +4,5 @@ MAINTAINER Lukasz J <l.j>
 LABEL maintainer="Lukasz J"
 
 RUN apt-get update && apt-get upgrade -y && apt-get install nano vim -y
-RUN useradd -ms /bin/bash
+RUN useradd -ms /bin/bash lukasz
 USER lukasz
