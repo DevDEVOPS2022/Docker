@@ -1,0 +1,8 @@
+# Example
+FROM ubuntu:latest
+MAINTAINER Lukasz J <l.j>
+LABEL maintainer="Lukasz J"
+
+RUN apt update
+RUN apt upgrade -y
+RUN apt install nano vim -y
