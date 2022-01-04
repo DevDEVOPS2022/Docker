@@ -1,0 +1,8 @@
+# Example
+FROM ubuntu:latest
+MAINTAINER Lukasz J <l.j>
+LABEL maintainer="Lukasz J"
+
+RUN apt-get update && apt-get upgrade -y && apt-get install apache2
+RUN useradd -ms /bin/bash lukasz
+USER lukasz
