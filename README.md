@@ -10,7 +10,7 @@ docker rm -f  $(docker ps -qa)
 
 # Dockerfile
 
-INSTRUCTION	Description
+# INSTRUCTION	Description
 FROM	iIt sets the Base Image for subsequent instructions.
 MAINTAINER	It sets the Author field of the generated images.
 RUN	It will execute any commands when Docker image will be created.
