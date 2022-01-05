@@ -10,7 +10,6 @@ docker rm -f  $(docker ps -qa)
 
 # Dockerfile
 
-
 INSTRUCTION	Description
 FROM	iIt sets the Base Image for subsequent instructions.
 MAINTAINER	It sets the Author field of the generated images.
@@ -26,3 +25,4 @@ The differences of [ADD] are that it's impossible to specify remore URL and also
 VOLUME	It creates a mount point with the specified name and marks it as holding externally mounted volumes from native host or other containers
 USER	It sets the user name or UID.
 WORKDIR	It sets the working directory.
+
