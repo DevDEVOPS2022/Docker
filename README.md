@@ -123,6 +123,22 @@ Run 'docker COMMAND --help' for more information on a command.
 To get more help with docker, check out our guides at https://docs.docker.com/go/guides/
 [lukasz@localhost ~]$ 
 
+-----------------------------------------------------------------------------------------------------------------
+# systemctl status docker
+
+[lukasz@localhost ~]$ systemctl status docker
+● docker.service - Docker Application Container Engine
+   Loaded: loaded (/usr/lib/systemd/system/docker.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2022-01-08 22:47:21 PST; 6min ago
+     Docs: https://docs.docker.com
+ Main PID: 1347 (dockerd)
+    Tasks: 10
+   Memory: 113.1M
+   CGroup: /system.slice/docker.service
+           └─1347 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/cont...
+[lukasz@localhost ~]$ 
+
+
 
 
 
