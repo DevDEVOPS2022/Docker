@@ -26,3 +26,7 @@ VOLUME	It creates a mount point with the specified name and marks it as holding 
 USER	It sets the user name or UID.
 WORKDIR	It sets the working directory.
 
+# Docker CLI
+
+
+
